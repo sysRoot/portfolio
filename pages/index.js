@@ -154,6 +154,7 @@ export default () => (
 <footer class="footer">
     <div class="content has-text-centered">
         Copyright © 2019 by Jason Cook
+        <div>Icons made by <a href="https://www.freepik.com/?__hstc=57440181.c7bb5a5f6a0d6815c3f71e4dfeb314cd.1559845218330.1559845218330.1559847523178.2&__hssc=57440181.2.1559847523178&__hsfp=165344926" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a> and <a href="https://fontawesome.com">FontAwesome</a></div>
     </div>
 </footer>
 
