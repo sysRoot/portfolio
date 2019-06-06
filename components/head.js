@@ -1,10 +1,10 @@
 import NextHead from 'next/head';
 import { string } from 'prop-types';
 
-const defaultDescription = '';
-const defaultKeywords = '';
-const defaultOGURL = '';
-const defaultOGImage = '';
+const defaultDescription = `Hi, my name is Jason, and I'm an aspirant developer`;
+const defaultKeywords = 'NextJS, React, Bulma, JavaScript, Web-development';
+const defaultOGURL = 'https://JavaSc.rip';
+const defaultOGImage = '/static/favicon-mask.svg';
 
 const Head = (props) => (
   <NextHead>
