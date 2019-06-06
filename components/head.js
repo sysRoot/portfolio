@@ -4,7 +4,7 @@ import { string } from 'prop-types';
 const defaultDescription = `Hi, my name is Jason, and I'm an aspirant developer`;
 const defaultKeywords = 'NextJS, React, Bulma, JavaScript, Web-development';
 const defaultOGURL = 'https://JavaSc.rip';
-const defaultOGImage = 'https://javasc.rip/static/orobouros.png';
+const defaultOGImage = 'https://javasc.rip/static/ouroboros.png';
 
 const Head = (props) => (
   <NextHead>
