@@ -1,10 +1,25 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const links = [
-  { href: 'https://github.com/themodernjavascript/create-next-app-cli', label: 'Github' }
+  {
+    href: "https://github.com/sysRoot/portfolio",
+    label: "Source"
+  },
+  {
+    href: "/portfolio",
+    label: "Portfolio"
+  },
+  {
+    href: "/about",
+    label: "About"
+  },
+  {
+    href: "/contact",
+    label: "Contact"
+  }
 ].map(link => {
-  link.key = `nav-link-${link.href}-${link.label}`
-  return link
+  link.key = `nav-link-${link.href}-${link.label}`;
+  return link;
 });
 
 const Nav = () => (
@@ -15,23 +30,23 @@ const Nav = () => (
           <a>Home</a>
         </Link>
       </li>
+
       <ul>
-        {links.map(
-          ({ key, href, label }) => (
-            <li key={key}>
-              <Link href={href}>
-                <a>{label}</a>
-              </Link>
-            </li>
-          )
-        )}
+        {links.map(({ key, href, label }) => (
+          <li key={key}>
+            <Link href={href}>
+              <a>{label}</a>
+            </Link>
+          </li>
+        ))}
       </ul>
     </ul>
 
     <style jsx>{`
       :global(body) {
         margin: 0;
-        font-family: -apple-system,BlinkMacSystemFont,Avenir Next,Avenir,Helvetica,sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
+          Helvetica, sans-serif;
       }
       nav {
         text-align: center;
