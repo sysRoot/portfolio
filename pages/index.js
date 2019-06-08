@@ -15,32 +15,32 @@ export default () => (
     <Head title="Home" />
     <Nav />
 
-    <header className="line has-background-primary" />
+    <header class="line has-background-primary" />
 
-    <section className="profile section">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-two-fifths">
-            <h1 className="title is-size-1">Hi, I'm Jason Cook</h1>
-            <p className="subtitle">I'm an aspirant web developer</p>
+    <section class="profile section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-two-fifths">
+            <h1 class="title is-size-1">Hi, I'm Jason Cook</h1>
+            <p class="subtitle">I'm an aspirant web developer</p>
           </div>
-          <div className="column is-2">
-            <figure className="image image is-128x128">
+          <div class="column is-2">
+            <figure class="image image is-128x128">
               <img
-                className="is-rounded"
+                class="is-rounded"
                 src="https://avatars0.githubusercontent.com/u/414285?s=300&v=4"
               />
             </figure>
           </div>
-          <div className="column has-text-grey-light has-text-right-in-desktop">
-            <p className="has-text-weight-light">Cape Cod, Massachusetts</p>
-            <p className="has-text-weight-light">+1 (774) 810-6361</p>
-            <p className="has-text-weight-light">the.root.user@gmail.com</p>
+          <div class="column has-text-grey-light has-text-right-in-desktop">
+            <p class="has-text-weight-light">Cape Cod, Massachusetts</p>
+            <p class="has-text-weight-light">+1 (774) 810-6361</p>
+            <p class="has-text-weight-light">the.root.user@gmail.com</p>
 
-            <div className="social-icon">
+            <div class="social-icon">
               <a
                 href="https://fb.me/thejasoncook"
-                className="facebook"
+                class="facebook"
                 title="Facebook"
               >
                 /thejasoncook{" "}
@@ -49,10 +49,10 @@ export default () => (
                 </svg>
               </a>
             </div>
-            <div className="social-icon">
+            <div class="social-icon">
               <a
                 href="https://twitter.com/THErootUSER"
-                className="twitter"
+                class="twitter"
                 title="Twitter"
               >
                 @THErootUSER{" "}
@@ -61,10 +61,10 @@ export default () => (
                 </svg>
               </a>
             </div>
-            <div className="social-icon">
+            <div class="social-icon">
               <a
                 href="https://www.linkedin.com/in/jase-codes/"
-                className="linkedin"
+                class="linkedin"
                 title="Linkedin"
               >
                 /in/jase-codes{" "}
@@ -73,10 +73,10 @@ export default () => (
                 </svg>
               </a>
             </div>
-            <div className="social-icon">
+            <div class="social-icon">
               <a
                 href="https://github.com/sysRoot"
-                className="github"
+                class="github"
                 title="Github"
               >
                 /sysRoot{" "}
@@ -90,17 +90,17 @@ export default () => (
       </div>
     </section>
 
-    <div className="hr" />
+    <div class="hr" />
 
-    <section className="section">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-three-fifths">
-            <div className="summary">
-              <div className="title is-size-5 has-text-primary has-text-weight-bold">
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-three-fifths">
+            <div class="summary">
+              <div class="title is-size-5 has-text-primary has-text-weight-bold">
                 SUMMARY
               </div>
-              <div className="wrapper">
+              <div class="wrapper">
                 I am a full stack web development student at Lambda school,
                 where I have learned HTML5, CSS (As well as LESS and
                 self-learning SASS), JavaScript and the modular React Library.
@@ -113,19 +113,19 @@ export default () => (
               </div>
             </div>
 
-            <div className="experience">
-              <div className="title is-size-5 has-text-primary has-text-weight-bold">
+            <div class="experience">
+              <div class="title is-size-5 has-text-primary has-text-weight-bold">
                 EXPERIENCE
               </div>
 
-              <div className="item">
-                <div className="is-size-5">
+              <div class="item">
+                <div class="is-size-5">
                   <b>Lambda School,</b>{" "}
-                  <span className="has-text-weight-semi-bold">
+                  <span class="has-text-weight-semi-bold">
                     Student — <i>Full Stack Web Developer</i>
                   </span>
                 </div>
-                <div className="is-size-7">SEPT 2018 - PRESENT</div>
+                <div class="is-size-7">SEPT 2018 - PRESENT</div>
                 <div>
                   <ul style={{ listStyle: "disc", marginLeft: "1em" }}>
                     <li>Participate in modular code learning exercises</li>
@@ -141,18 +141,18 @@ export default () => (
               </div>
             </div>
 
-            <div className="education">
-              <div className="title is-size-5 has-text-primary has-text-weight-bold">
+            <div class="education">
+              <div class="title is-size-5 has-text-primary has-text-weight-bold">
                 EDUCATION
               </div>
-              <div className="item">
-                <div className="is-size-5">
+              <div class="item">
+                <div class="is-size-5">
                   <b>CCC College Adult Education</b>,{" "}
-                  <span className="has-text-weight-semi-bold">
+                  <span class="has-text-weight-semi-bold">
                     General Study — <i>HiSET Diploma</i>
                   </span>
                 </div>
-                <div className="is-size-7">2017</div>
+                <div class="is-size-7">2017</div>
                 <div>
                   HiSET Diploma from Cape Cod Community College, for completing
                   a high school equivalency program
@@ -160,39 +160,39 @@ export default () => (
               </div>
             </div>
           </div>
-          <div className="column">
-            <div className="projects">
-            <div className="atom-spinner">
-                <div className="spinner-inner">
-                  <div className="spinner-line" />
-                  <div className="spinner-line" />
-                  <div className="spinner-line" />
-                  <div className="spinner-line" />
-                  <div className="spinner-line" />
-                  <div className="spinner-line" />
-                  <div className="spinner-circle">&#9679;</div>
+          <div class="column">
+            <div class="projects">
+            <div class="atom-spinner">
+                <div class="spinner-inner">
+                  <div class="spinner-line" />
+                  <div class="spinner-line" />
+                  <div class="spinner-line" />
+                  <div class="spinner-line" />
+                  <div class="spinner-line" />
+                  <div class="spinner-line" />
+                  <div class="spinner-circle">&#9679;</div>
                 </div>
               </div>
               
-              {/* <div className="title is-size-5 has-text-primary has-text-weight-bold">PROJECTS</div>
+              {/* <div class="title is-size-5 has-text-primary has-text-weight-bold">PROJECTS</div>
 
-                    <div className="item">
-                        <div className="is-size-5"><b>Resume/Portfolio</b> — <i>Presentational</i></div>
-                        <div className="is-size-7">React, Bulma, Next.js, FontAwesome</div>
+                    <div class="item">
+                        <div class="is-size-5"><b>Resume/Portfolio</b> — <i>Presentational</i></div>
+                        <div class="is-size-7">React, Bulma, Next.js, FontAwesome</div>
                     </div> */}
             </div>
 
-            <div className="skills">
-              <div className="title is-size-5 has-text-primary has-text-weight-bold">
+            <div class="skills">
+              <div class="title is-size-5 has-text-primary has-text-weight-bold">
                 SKILLS
               </div>
-              <div className="wrapper">
-                <div className="item">
+              <div class="wrapper">
+                <div class="item">
                   <div>
                     <FontAwesomeIcon size="lg" icon={faHtml5} /> HTML5
                   </div>
                   <progress
-                    className="progress is-primary is-small"
+                    class="progress is-primary is-small"
                     value="90"
                     max="100"
                   >
@@ -200,12 +200,12 @@ export default () => (
                   </progress>
                 </div>
 
-                <div className="item">
+                <div class="item">
                   <div>
                     <FontAwesomeIcon size="lg" icon={faCss3} /> CSS3
                   </div>
                   <progress
-                    className="progress is-primary is-small"
+                    class="progress is-primary is-small"
                     value="45"
                     max="100"
                   >
@@ -213,12 +213,12 @@ export default () => (
                   </progress>
                 </div>
 
-                <div className="item">
+                <div class="item">
                   <div>
                     <FontAwesomeIcon size="lg" icon={faJs} /> JavaScript
                   </div>
                   <progress
-                    className="progress is-primary is-small"
+                    class="progress is-primary is-small"
                     value="65"
                     max="100"
                   >
@@ -226,12 +226,12 @@ export default () => (
                   </progress>
                 </div>
 
-                <div className="item">
+                <div class="item">
                   <div>
                     <FontAwesomeIcon size="lg" icon={faReact} /> React
                   </div>
                   <progress
-                    className="progress is-primary is-small"
+                    class="progress is-primary is-small"
                     value="50"
                     max="100"
                   >
@@ -240,19 +240,19 @@ export default () => (
                 </div>
               </div>
             </div>
-            <div className="languages">
-              <div className="title is-size-5 has-text-primary has-text-weight-bold">
+            <div class="languages">
+              <div class="title is-size-5 has-text-primary has-text-weight-bold">
                 LANGUAGES
               </div>
-              <div className="wrapper">English, JavaScript</div>
+              <div class="wrapper">English, JavaScript</div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <footer className="footer">
-      <div className="content has-text-centered">
+    <footer class="footer">
+      <div class="content has-text-centered">
         Copyright © 2019 by Jason Cook
         <div>
           Icons made by{" "}
@@ -279,6 +279,6 @@ export default () => (
       </div>
     </footer>
 
-    <footer className="line has-background-primary" />
+    <footer class="line has-background-primary" />
   </div>
 );

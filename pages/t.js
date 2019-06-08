@@ -58,7 +58,7 @@ class T extends Component {
         <header className="line has-background-primary" />
 
         <section className="section">
-          <div className="container">
+          <div className="container container-flex">
             <h1 className="ml1">
               <span className="text-wrapper">
                 <span className="line line1" />
