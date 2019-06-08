@@ -16,6 +16,10 @@ const links = [
   {
     href: "/contact",
     label: "Contact"
+  },
+  {
+    href: "/t",
+    label: "T"
   }
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`;
